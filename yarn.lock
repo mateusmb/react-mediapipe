@@ -1396,6 +1396,21 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
+"@mediapipe/camera_utils@^0.3.1620247984":
+  version "0.3.1620247984"
+  resolved "https://registry.yarnpkg.com/@mediapipe/camera_utils/-/camera_utils-0.3.1620247984.tgz#576748af84b3174356acab37671c7ed33d3cb04b"
+  integrity sha512-CQEppbvSfgF5BaiA917+x/xHn8ttietc4+co/7RF98AqgjByGQHKLslog1eE7WekgBXYT/qc4z9F1HrOIfy3yQ==
+
+"@mediapipe/drawing_utils@^0.3.1620248257":
+  version "0.3.1620248257"
+  resolved "https://registry.yarnpkg.com/@mediapipe/drawing_utils/-/drawing_utils-0.3.1620248257.tgz#b39dfd235e7cf520e3e39d8b2bac2c5d717a7158"
+  integrity sha512-s598oo1K6C62mX3rWXJ7n1RJFdXjyQn3f6CeI+lU6kD69MVyBcV3hdmO5LnEZlCw5NRDANtaM8WAOuqZHaldLg==
+
+"@mediapipe/hands@^0.3.1626903359":
+  version "0.3.1626903359"
+  resolved "https://registry.yarnpkg.com/@mediapipe/hands/-/hands-0.3.1626903359.tgz#64e93a415cb57d8e2ff7b4d2948a506e25c52551"
+  integrity sha512-fTd99ue3qoA/VrxNOjwZnxtPwnJpQM9ORgjl7D1OUWBSicr6LvLh9hlstBYgHEqTxx2i+z4RVVDgJYAbVtIDNw==
+
 "@nodelib/fs.scandir@2.1.4":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.4.tgz#d4b3549a5db5de2683e0c1071ab4f140904bbf69"
@@ -9040,6 +9055,11 @@ react-scripts@4.0.3:
     workbox-webpack-plugin "5.1.4"
   optionalDependencies:
     fsevents "^2.1.3"
+
+react-webcam@^5.2.4:
+  version "5.2.4"
+  resolved "https://registry.yarnpkg.com/react-webcam/-/react-webcam-5.2.4.tgz#714b4460ea43ac7ed081824299cd2a580f764478"
+  integrity sha512-Qqj14t68Ke1eoEYjFde+N48HtuIJg0ePIQRpFww9eZt5oBcDpe/l60h+m3VRFJAR5/E3dOhSU5R8EJEcdCq/Eg==
 
 react@^17.0.2:
   version "17.0.2"

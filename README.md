@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# React Mediapipe - Tutorial and sample code to get Google's Mediapipe work in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Google's Mediapipe is a set of open source cross-platform libraries for Machine Learning on real time media. If you don't know Mediapipe check out the [official webpage](https://mediapipe.dev/) and [code repo](https://github.com/google/mediapipe).
 
-## Available Scripts
+All in all, this toolset allows to easily apply feature detection and tracking for live video and media files aswell. The code base is mostly C++, but the libraries have bindings for most popular languages and platforms as of today. The official website and [docs](https://google.github.io/mediapipe/getting_started/getting_started.html) cites Android, iOS, Python and Javascript, but it should be possible to make it run in virtually any other popular language/framework.
 
-In the project directory, you can run:
+The majority of code samples and tutorials with Mediapipe show it running in Python applications. The website shows samples with only the languages and platforms officially supported, but there are already some implementations with [Unity](https://github.com/mgyong/awesome-mediapipe/#unity), [Flutter](https://github.com/zhouzaihang/flutter_hand_tracking_plugin) and even [running directly on cloud](https://github.com/mgyong/awesome-mediapipe/#cloud-examples), just to name a few.
 
-### `yarn start`
+However there is almost no sample or tutorial to get Mediapipe running on popular web frameworks (React, Angular or Vue). Besides the official website [having setup explanations for Vanilla Javascript](https://google.github.io/mediapipe/getting_started/javascript.html), it lacks some bit of information that is needed to get it working with the frameworks. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This repo have a setup tutorial and code samples of Mediapipe running with React, so anyone can use it right away to improve user experience and interactions in web applications made in React.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Disclaimer: Mediapipe is in an ongoing development stage. Things may change or may not. I will do my best to keep this repository updated and with the latest features. However, feel free to make pull requests if you know that something changed or if there is something new.
 
-### `yarn test`
+## Available Solutions for Javascript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
