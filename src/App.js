@@ -1,11 +1,13 @@
-import MPHands from "./components/MPHands";
-import MPFaceMesh from "./components/MPFaceMesh";
+// import MPHands from "./components/MPHands";
+// import MPFaceMesh from "./components/MPFaceMesh";
+import MPHolistic from "./components/MPHolistic";
 
 function App() {
   return (
     <>
       {/* <MPHands /> */}
-      <MPFaceMesh />
+      {/* <MPFaceMesh /> */}
+      <MPHolistic />
     </>
   );
 }
