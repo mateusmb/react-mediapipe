@@ -1406,6 +1406,11 @@
   resolved "https://registry.yarnpkg.com/@mediapipe/drawing_utils/-/drawing_utils-0.3.1620248257.tgz#b39dfd235e7cf520e3e39d8b2bac2c5d717a7158"
   integrity sha512-s598oo1K6C62mX3rWXJ7n1RJFdXjyQn3f6CeI+lU6kD69MVyBcV3hdmO5LnEZlCw5NRDANtaM8WAOuqZHaldLg==
 
+"@mediapipe/face_mesh@^0.4.1626476802":
+  version "0.4.1626476802"
+  resolved "https://registry.yarnpkg.com/@mediapipe/face_mesh/-/face_mesh-0.4.1626476802.tgz#b7d5cf75b9b9cf691f75965fb0bba02f76fe5770"
+  integrity sha512-2U0rCahTSmQoaHdXo7pHwAkmjJUvWx78qjh8zgL13BFhmGGkK7y1P6u5IwDrt9kDQzvqBRJB6JiauqXqyhiwFA==
+
 "@mediapipe/hands@^0.3.1626903359":
   version "0.3.1626903359"
   resolved "https://registry.yarnpkg.com/@mediapipe/hands/-/hands-0.3.1626903359.tgz#64e93a415cb57d8e2ff7b4d2948a506e25c52551"

@@ -1,9 +1,11 @@
 import MPHands from "./components/MPHands";
+import MPFaceMesh from "./components/MPFaceMesh";
 
 function App() {
   return (
     <>
-      <MPHands />
+      {/* <MPHands /> */}
+      <MPFaceMesh />
     </>
   );
 }
