@@ -1492,11 +1492,6 @@
   resolved "https://registry.yarnpkg.com/@mediapipe/holistic/-/holistic-0.4.1627346628.tgz#210a3fa6c3cffa98f7ea62dae7ee170c69752bdd"
   integrity sha512-OTUVUy6nVQEupf0rxhjadiu19MI1+YxErdiFGio5WCUsQQMkaojbFeTbsTpeFjHFB8MunHi2a0bbWQOnSAtW4A==
 
-"@mediapipe/pose@^0.4.1627343400":
-  version "0.4.1627343400"
-  resolved "https://registry.yarnpkg.com/@mediapipe/pose/-/pose-0.4.1627343400.tgz#11b492ff93a2f3488024beef88f74a1421f57bd9"
-  integrity sha512-uK6zquikhDXw+HQbVoeRXzfV56zbC3+h7pJZtIRLqDeHbbumC6hEhE99nnhmxg3R6+01c4RYDVWXXX7rkz5HlA==
-
 "@mediapipe/selfie_segmentation@^0.1.1622680987":
   version "0.1.1622680987"
   resolved "https://registry.yarnpkg.com/@mediapipe/selfie_segmentation/-/selfie_segmentation-0.1.1622680987.tgz#9cb908a22067002301fa7564f62fe80722c5f3f6"

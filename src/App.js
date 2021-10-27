@@ -1,15 +1,15 @@
-// import MPHands from "./components/MPHands";
+import MPHands from "./components/MPHands";
 // import MPFaceMesh from "./components/MPFaceMesh";
 // import MPHolistic from "./components/MPHolistic";
-import MPSelfieSegmentation from "./components/MPSelfieSegmentation";
+// import MPSelfieSegmentation from "./components/MPSelfieSegmentation";
 
 function App() {
   return (
     <>
-      {/* <MPHands /> */}
+      <MPHands />
       {/* <MPFaceMesh /> */}
       {/* <MPHolistic /> */}
-      <MPSelfieSegmentation />
+      {/* <MPSelfieSegmentation /> */}
     </>
   );
 }

@@ -12,10 +12,11 @@ const MPHands = () => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
+    console.log(Hands.VERSION);
     const hands = new Hands({
       locateFile: (file) => {
-        console.log(`${file}`);
-        return `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`;
+        
+        return `https://cdn.jsdelivr.net/npm/@mediapipe/hands@0.3.1626903359/${file}`;
       },
     });
     hands.setOptions({
@@ -59,7 +60,7 @@ const MPHands = () => {
       canvasElement.height
     );
     if (results.multiHandLandmarks) {
-      console.log("Found hands");
+      
       for (const landmarks of results.multiHandLandmarks) {
         drawConnectors(canvasCtx, landmarks, HAND_CONNECTIONS, {
           color: "#00FF00",
