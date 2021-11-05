@@ -5,7 +5,7 @@
   "dependencies": {
     "@mediapipe/camera_utils": "^0.3.1620247984",
     "@mediapipe/drawing_utils": "^0.3.1620248257",
-    "@mediapipe/face_mesh": "^0.4.1626476802",
+    "@mediapipe/face_mesh": "^0.4.1633559619",
     "@mediapipe/hands": "^0.3.1626903359",
     "@mediapipe/holistic": "^0.4.1627346628",
     "@mediapipe/selfie_segmentation": "^0.1.1622680987",

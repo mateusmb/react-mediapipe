@@ -20,7 +20,7 @@ const MPHands = () => {
       },
     });
     hands.setOptions({
-      maxNumHands: 1,
+      maxNumHands: 2,
       minDetectionConfidence: 0.5,
       minTrackingConfidence: 0.5,
     });
@@ -86,8 +86,8 @@ const MPHands = () => {
           right: "0",
           textAlign: "center",
           zindex: 9,
-          width: 1280,
-          height: 720,
+          width: 800,
+          height: 600,
         }}
       />
       <canvas
@@ -100,8 +100,8 @@ const MPHands = () => {
           right: "0",
           textAlign: "center",
           zindex: 9,
-          width: 1280,
-          height: 720,
+          width: 800,
+          height: 600,
         }}
       ></canvas>
     </div>
